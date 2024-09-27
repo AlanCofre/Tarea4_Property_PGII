@@ -16,7 +16,6 @@ class CuentaBacaria:
     
     @saldo.setter
 
-
     @property
     def numero_cuenta(self):
         return self.__titular
