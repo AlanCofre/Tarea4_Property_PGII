@@ -25,6 +25,8 @@ class CuentaBacaria:
 cuenta_prueba = CuentaBacaria("Juan", 1000, "HOLA", "CHAO", 2)
 cuenta_prueba.saldo = 100000
 print(cuenta_prueba.saldo)
+
+HOLAHOLA HOLAHOLAHOLAHOLA
     
     
         
