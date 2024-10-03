@@ -1,0 +1,22 @@
+Objetivo: Implementar una clase llamada CuentaBancaria que gestione el saldo
+de una cuenta de forma encapsulada.
+
+1. Crea una Cuenta Bancaria:
+    ○ Crea una clase CuentaBancaria con los atributos privados __titular, __saldo, y
+        __numero_cuenta.
+    ○ Un atributo tipo_cuenta que será público.
+    ○ Un atributo protegido que será la tasa_interes de la cuenta, esta afecta el
+    saldo y lo hará crecer en dependencia de esta misma.
+    ○ Implementa métodos para obtener el titular y el saldo.
+    ○ Implementa un método depositar(cantidad) que permita añadir saldo a la
+    cuenta, validando que la cantidad sea positiva.
+    ○ Implementa un método retirar(cantidad) que permita retirar saldo, validando
+    que no se pueda retirar más de lo que hay disponible en la cuenta.
+
+2. Crea una Cuenta_Vip que deben extender esta clase CuentaBancaria
+    para añadir una subclase CuentaVIP que tenga un atributo protegido
+    adicional llamado _limite_credito.
+    
+3. Deberán implementar métodos para gestionar este límite de crédito y
+    realizar operaciones bancarias que tengan en cuenta tanto el saldo
+    como el crédito disponible.
